@@ -1,0 +1,13 @@
+.pagination { 
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+}
+
+.pagination li {
+    margin: 1rem;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 10%;
+}

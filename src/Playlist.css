@@ -1,0 +1,56 @@
+.playlist {
+    border: 1px solid white;
+}
+
+
+.track {
+    width: 50%;
+    background-color: white;
+    margin: 1.125rem auto;  
+    padding: 0.1px;
+    border-radius: 10px;
+}
+
+.playlist h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+  
+}
+
+.playlist input[type="text"] {
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 50%;
+    border: none;
+    background-color: transparent;
+    background-color: white;
+    margin-block-end: 0.83em;
+    margin-block-start: 0.83em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    text-align: center;
+}
+
+.tick-icon {
+    margin-left: 10px;
+    fill: white;
+    max-height: 20px;
+}
+
+.playlistHeading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+.playlistHeading img {
+    filter: invert(1);
+    height: 1.125rem;
+    margin-left: 0.5rem;
+}
+

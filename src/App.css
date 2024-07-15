@@ -1,10 +1,22 @@
+html {
+  background-color: #282c34;
+}
+
+
 .App {
   text-align: center;
+
+
+}
+
+.white-headers {
+  color: white;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
+  margin-top: 2vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,8 +26,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +46,70 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.searchBar {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 10rem;
+  align-items: center;
+}
+
+.searchBar input {
+
+  margin-bottom: 1.125rem;
+  height: 2.5rem;
+  width: 50vw;
+  font-size: large;
+}
+
+
+.buttonContainer {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+}
+
+.buttonContainer button {
+  margin-right: 1.125rem;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.searchResults, .playlist {
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.playlist input[type="text"] {
+  font-size: 1.2em;
+  width: 100%;
+  /* Additional styling as needed */
+}
+
+.spotify-login {
+  display: flex;
+
+  background-color: white;
+  padding: 1rem;
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 1rem;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.spotify-login img{
+  width: 1.5rem;
+  margin-right: 1rem;
+  
+
 }
